@@ -2,15 +2,18 @@
   <head>
     <title>Humbly Arrogant</title>
     <style>
-    body {
-    position: relative;
-    background-image: url("logo.png");
-    background-repeat:no-repeat;
-    background-size:100% 100vh;
+    .centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
     </style>
   </head>
   <body>
-
+    <div class="centered">
+      <img src="./logo.png" alt="Humbly Arrogant" />
+    </div>
   </body>
 </html>
